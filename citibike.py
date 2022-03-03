@@ -9,7 +9,7 @@ sidebar = st.sidebar
 sidebar.title("MENU")
 
 
-DATA_URL = ('/content/citibike.csv')
+DATA_URL = ('https://raw.githubusercontent.com/Pedrohero13/citibike/main/citibike.csv')
 DATE_COLUMN = 'started_at'
 @st.cache
 def load_data(nrows):

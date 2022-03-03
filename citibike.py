@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import codecs
-import matplotlib.pyplot as plt
+
 st.subheader('Integrantes: Pedro de Jesus Hernandez Rojas')
 st.subheader('Cristian Terán Juárez ')
 st.title('Citybike')
